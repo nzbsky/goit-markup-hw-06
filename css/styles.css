@@ -426,7 +426,7 @@ a {
    Hero (D3 — separate bg per breakpoint)
    ============================================ */
 
-/* mobile — base styles, no media wrap (B6) */
+/* mobile — base styles */
 .hero {
   background-color: var(--primary-color);
   background-repeat: no-repeat;
@@ -437,14 +437,7 @@ a {
   padding: 72px 0;
   text-align: center;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/hero-mobile.jpg");
-}
-
-@media (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/hero-mobile@2x.jpg");
-  }
+    url("../images/people-office 1.jpg");
 }
 
 /* tablet — from 768px */
@@ -452,15 +445,6 @@ a {
   .hero {
     max-width: 1157px;
     padding: 112px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/hero-tablet.jpg");
-  }
-}
-
-@media (min-width: 768px) and (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/hero-tablet@2x.jpg");
   }
 }
 
@@ -469,15 +453,6 @@ a {
   .hero {
     max-width: 1440px;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/people-office%201.jpg");
-  }
-}
-
-@media (min-width: 1158px) and (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/people-office@2x.jpg");
   }
 }
 
@@ -873,6 +848,7 @@ a {
 
 .footer-info {
   max-width: 264px;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
@@ -907,6 +883,8 @@ a {
   font-size: 16px;
   line-height: 1.5;
   color: var(--light-color);
+  text-align: left;
+}
 }
 
 .footer-socials {
