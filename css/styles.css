@@ -872,12 +872,13 @@ a {
 
 .footer-info {
   max-width: 264px;
-  text-align: left;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .footer-info {
     flex-shrink: 0;
+    text-align: left;
   }
 }
 
@@ -920,6 +921,13 @@ a {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-socials-title {
+    text-align: left;
+  }
 }
 
 .footer-socials-list {
@@ -969,6 +977,13 @@ a {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 16px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-subscribe-title {
+    text-align: left;
+  }
 }
 
 .subscribe-form {
