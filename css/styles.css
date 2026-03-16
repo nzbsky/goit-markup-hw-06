@@ -437,7 +437,7 @@ a {
   padding: 72px 0;
   text-align: center;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/people-office%201.jpg");
+    url("../images/people-office.jpg");
 }
 
 /* mobile 2x */
@@ -453,6 +453,8 @@ a {
   .hero {
     max-width: 1157px;
     padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/people-office.jpg");
   }
 }
 
@@ -469,6 +471,8 @@ a {
   .hero {
     max-width: 1440px;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/people-office.jpg");
   }
 }
 
@@ -698,7 +702,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding: 0 16px 32px;
 }
 
 .social-link {
